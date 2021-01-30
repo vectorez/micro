@@ -3,19 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Felicitaciones</title>
+        <title>QR</title>
 
         <link rel="shortcut icon" href="favicon.ico" />
 
-        <script>
-            document.documentElement.className = "js";
-            var supportsCssVars = function () {
-                var e,
-                    t = document.createElement("style");
-                return (t.innerHTML = "root: { --tmp-var: bold; }"), document.head.appendChild(t), (e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)"))), t.parentNode.removeChild(t), e;
-            };
-            supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
-        </script>
+
 
         <link href="vendors.css" rel="stylesheet" />
         <link href="demo2.css" rel="stylesheet" />
@@ -212,7 +204,7 @@
             border-radius: 40px;
             /*background:#fff909;
             */
-            background: #006263;
+            background: #ffffff;
             right: 0;
             bottom: 0;
             position: absolute;
@@ -220,7 +212,7 @@
             margin-bottom: 16px;
             border: none;
             outline: none;
-            color: #fff;
+            color: #006263;
             font-size: 28px;
             /* font-family: 'Open Sans'; */
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -347,7 +339,7 @@ Absolute Centering
     </style>
 
     <body>
-        <div class="overlay"></div>
+        <div></div>
         <main>
             <div class="contenedoraa animated fadeIn delay-2s">
                 <button class="botonF1" data-toggle="modal" data-target="#myModal">
@@ -652,6 +644,6 @@ Absolute Centering
         </main>
 
         <script type="text/javascript" src="vendors.js"></script>
-        <script type="text/javascript" src="demo2.js"></script>
+
     </body>
 </html>
